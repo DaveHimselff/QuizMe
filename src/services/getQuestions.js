@@ -13,7 +13,7 @@ const getQuestions = gameOptions => {
 
 	if (type !== "")
 		typeQueryParam = `&type=${type}`;
-
+//Increase Question to 10/10
 	let apiUrl = `https://opentdb.com/api.php?amount=10${categoryQueryParam}${difficultyQueryParam}${typeQueryParam}`;
 
 	return fetch(apiUrl)
