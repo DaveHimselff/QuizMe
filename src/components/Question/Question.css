@@ -51,12 +51,12 @@
 }
 
 .question-btn-correct {
-	background-color: #0f98ad;
+	background-color: #fea94d;
 	border: none;
 }
 
 .question-btn-incorrect{
-	background-color: #fea94d;
+	background-color: #0f98ad;
 	opacity: 50%;
 	border: none;
 }
@@ -73,12 +73,12 @@
 		font-weight: 200;
 	}
 	.question-btn-incorrect{
-		background-color: #fea94d;
+		background-color: #0f98ad;
 		opacity: 50%;
 		border: none;
 	}
 	.question-btn-correct {
-		background-color: #0f98ad;
+		background-color: #fea94d;
 		border: none;
 	}
 
