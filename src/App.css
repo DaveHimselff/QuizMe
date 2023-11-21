@@ -1,0 +1,159 @@
+.game-title {
+	font-weight: 400;
+	font-size: 2em;
+	text-align: center;
+	color:white;
+}
+
+.game-intro {
+    height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.game-intro h1 {
+	margin: 0;
+}
+
+.game-intro p {
+	margin: 2em 0 2em 0;
+	font-family: "Karla", sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	color:white;
+}
+
+.game-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.game-text {
+	text-align: center;
+}
+
+.game-text2{
+	text-align: center;
+}
+
+.gameOptions-container {
+	margin-bottom: 1em;
+}
+
+.select-container {
+	margin-bottom: 1.1em;
+	width: 550px;
+	display: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.custom-select {
+	border: 0;
+	font-family: "Karla", sans-serif;
+	width: 95%;
+	height: 3em;
+	padding: 0 1em 0 1em;
+	color: #293264;
+	border-radius: 0.25em;
+	box-shadow: 0 0 0.6em 0 rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.custom-label {
+	font-size: 1rem;
+	font-weight: 500;
+	margin-right: 1.5em;
+	width: 250px;
+	color:black;
+}
+
+.noQuestions-text {
+	margin-bottom: 1.5em;
+	text-align: center;
+}
+
+@media screen and (max-width: 625px) {
+	.game-container {
+		position: static;
+		top: unset;
+		left: unset;
+		transform: none;
+		padding: 2em 1em 0 1em;
+	}
+
+	.game-intro p {
+		margin: 2em 0 2em 0;
+		font-family: "Karla", sans-serif;
+		font-weight: 300;
+		font-size: 1em;
+		color:white;
+		padding-right: 1rem;
+	}
+
+	.game-intro {
+		padding: 0 1.5em 0 1.5em;
+		height: 100vh;
+		margin-left: 1rem;
+	}
+
+	.custom-label {
+		margin-right: 10px;
+		width: 160px;
+	}
+
+	.select-container {
+		width: 100%;
+	}
+
+	.custom-label {
+		font-size: 0.95rem;
+		font-weight:300;
+		margin-right: 1.5em;
+		width: 250px;
+		color:black;
+	}
+	
+}
+
+@media screen and (max-height: 800px) and (orientation: landscape) {
+	.game-container {
+		position: static;
+		top: unset;
+		left: unset;
+		transform: none;
+		padding: 2em 0;
+		width: 700px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.select-container {
+		margin-bottom: 1.1em;
+		width: 550px;
+		display: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.game-intro p {
+		margin: 2em 0 2em 0;
+		font-family: "Karla", sans-serif;
+		font-weight: 300;
+		font-size: 1em;
+		color:white;
+		padding-right: 1rem;
+	}
+
+	.custom-label {
+		font-size: 1rem;
+		font-weight: 500;
+		margin-right: 1.5em;
+		width: 250px;
+		color:black;
+	}
+}

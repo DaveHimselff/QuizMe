@@ -1,0 +1,82 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Karla", sans-serif;
+	
+
+
+	background-color: #4686a0;
+	color: rgba(255, 255, 255, 0.75);
+	background-attachment: fixed, fixed, fixed;
+	background-image: url("assets/images/overlay2.png"), url("assets/images/overlay3.svg"),
+	  linear-gradient(45deg, #38618d 5%, #38618d 30%, #063970);
+	background-position: top left, center center, center center;
+	background-size: auto, cover, cover;
+	position: relative;
+}
+
+main {
+	position: relative;
+	min-height: 100vh;
+}
+
+p, h1, h2, h3 {
+	margin: 0;
+}
+
+img {
+	-webkit-user-drag: none;
+}
+
+
+.btn-primary {
+	background-color: black;
+	color: white;
+	font-family: "Karla", sans-serif;
+	font-weight: 1000;
+	font-size: 1em;
+	border-radius: 10px;
+	width: 190px;
+	height: 40px;
+	border: 0;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.btn-primary:active {
+	box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75) inset;
+}
+
+
+@media screen and (max-width: 770px) {
+.btn-primary {
+	background-color: black;
+	color: white;
+	font-family: "Karla", sans-serif;
+	font-weight: 1000;
+	font-size: 1em;
+	border-radius: 10px;
+	width: 190px;
+	height: 40px;
+	border: 0;
+	cursor: pointer;
+	z-index: 100;
+}
+}
+
+
+@media screen and (max-width: 500px) {
+.btn-primary {
+	background-color: black;
+	color: white;
+	font-family: "Karla", sans-serif;
+	font-weight: 1000;
+	font-size: 13px;
+	border-radius: 10px;
+	width: 190px;
+	height: 35px;
+	border: 0;
+	cursor: pointer;
+	z-index: 100;
+}
+}
