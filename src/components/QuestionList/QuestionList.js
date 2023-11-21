@@ -1,3 +1,4 @@
+//Dependency Array in `useEffect`
 import { useState, useEffect } from "react";
 import { nanoid } from "nanoid";
 import "./QuestionList.css";
