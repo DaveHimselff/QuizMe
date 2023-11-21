@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import QuestionList from "./components/QuestionList/QuestionList";
 
-
+//Initial commit add more Question
 const App = () => {
 	const [gameStarted, setGameStarted] = useState(false);
 	const [showNoQuestionsError, setShowNoQuestionsError] = useState(false);
@@ -56,7 +56,6 @@ const App = () => {
 						<div className="gameOptions-container">
 							<div className="select-container">
 								<label className="custom-label" htmlFor="category">Category:</label>
-
 								<select
 									name="category"
 									id="category"
@@ -73,7 +72,7 @@ const App = () => {
 									<option value="14">Entertainment: Television</option>
 									<option value="15">Entertainment: Video Games</option>
 									<option value="16">Entertainment: Board Games</option>
-									<option value="17">Science &amp; Nature</option>
+									<option value="17">Science &amp; Nature</option> 
 									<option value="18">Science: Computers</option>
 									<option value="19">Science: Mathematics</option>
 									<option value="20">Mythology</option>
@@ -132,5 +131,4 @@ const App = () => {
 		</main>
 	);
 }
-
 export default App;
